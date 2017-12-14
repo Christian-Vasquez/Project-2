@@ -4,6 +4,7 @@ $(document).ready(function() {
   var plandays = 1;
 
   $(".createPlannerButton").click(function(){
+    $("#pt").hide();
     console.log("createPlannerButton clikced")
     var start = $('#from').datepicker('getDate');
     var end = $('#to').datepicker('getDate');
@@ -28,6 +29,8 @@ $(document).ready(function() {
     plandays++;
     $("#planner").append(card);
   }
+
+
 
     checkup();
   });
