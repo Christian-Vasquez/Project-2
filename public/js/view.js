@@ -25,9 +25,12 @@ $(document).ready(function() {
   card += '</div> <br>';
 
 
+
     plandays++;
     $("#planner").append(card);
+
   }
+  $("#planner").append('<button class="btn btn-default border-radius custom-sub-btn" id="submitButton" type="button">Submit</button>');
 
 
 
