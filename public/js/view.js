@@ -19,8 +19,7 @@ $(document).ready(function() {
   card += '</div>';
   card += '<div class="card-block">';
   card += '<blockquote class="card-blockquote">';
-  card += '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>';
-  card += '<footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>';
+  card += '<input class="form-control" type="text" placeholder="what is your plan">';
   card += '</blockquote>';
   card += '</div>';
   card += '</div> <br>';
